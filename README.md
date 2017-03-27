@@ -5,7 +5,8 @@ Este projeto tem como objetivo fornecer uma interface amigável para criação r
 ## Arquitetura da Solução
 ### Ambiente de Produção
 Para um ambiente de produção, que deve ser horizontalmente escalável, a arquitetura da solução definida pode ser visualizada na figura a seguir.
-[imagem]
+
+![Arquitetura Produção](https://raw.githubusercontent.com/edussm/xy-inc/master/images/arquitetura-prod.png)
 
 Todas as requisições passariam por um API Gateway/Balancer e seriam respondidas pelos nós de "Frontend", responsável por fornecer a interface gráfica de adminstração, ou pelos nós responsáveis por prover os serviços REST.
 
@@ -15,7 +16,8 @@ Os nós de "backend", por sua vez, se conectam a um cluster de bancos MongoDB, p
 
 ### MVP (Minimum Viable Product)
 Considerando que um MVP é uma solução rápida, muitas vezes para provar um conceito, a arquitetura implementada neste projeto, formalmente um MVP, pode ser visualizada na figura abaixo.
-[imagem]
+
+![Arquitetura MVP](https://raw.githubusercontent.com/edussm/xy-inc/master/images/arquitetura-mvp.png)
 
 Observa-se que os clientes podem se comunicar diretamente com a aplicação, sem necessidade de instalar uma estrutura distribuída, inclusive para o banco de dados, que é carregado de forma embarcada, juntamente com o restante do software.
 
