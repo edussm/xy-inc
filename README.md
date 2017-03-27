@@ -79,7 +79,7 @@ Ficariam disponíveis os seguintes serviços:
 | [GET /api/dynamic/Produtos/{id}](http://localhost:8080/api/dynamic/Produtos/{id}) | Busca um produto pelo ID |
 | [POST /api/dynamic/Produtos](http://localhost:8080/api/dynamic/Produtos) | Cria um Produto. O corpo da chamada deve ser um objeto JSON com os campos do modelo. |
 | [PUT /api/dynamic/Produtos/{id}](http://localhost:8080/api/dynamic/Produtos/{id}) | Edita um produto pelo ID.  | O corpo da chamada deve ser um objeto JSON com os campos do modelo. |
-| [DELTE /api/dynamic/Produtos/{id}](http://localhost:8080/api/dynamic/Produtos/{id}) | Remove um produto pelo ID. |
+| [DELETE /api/dynamic/Produtos/{id}](http://localhost:8080/api/dynamic/Produtos/{id}) | Remove um produto pelo ID. |
 
 ### Exemplos de Chamada do Serviço REST
 
