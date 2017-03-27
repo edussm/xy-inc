@@ -1,0 +1,1 @@
+{"modelName":"Carro","columns":{"marca":"string","ano":"decimal","opcionais":"text","anoModelo":"decimal","modelo":"string","placa":"string"}}

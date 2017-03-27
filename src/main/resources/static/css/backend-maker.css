@@ -1,0 +1,6 @@
+#lista-modelos {
+	width: 100%;
+}
+#lista-modelos td, #lista-modelos th {
+	text-align: center;
+}

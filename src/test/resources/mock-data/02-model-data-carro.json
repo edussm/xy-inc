@@ -1,0 +1,132 @@
+[
+    {
+        "_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "fbe0732d-6125-4de1-b05d-424d3530ed93",
+        "modelName": "Carro",
+        "data": {
+            "marca": "Marca 0",
+            "ano": 2010,
+            "categoria": "Cat 0",
+            "anoModelo": 2010,
+            "modelo": "Modelo 0",
+            "placa": "ABC-0000"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "1c428f71-df53-4168-ac7f-2c86c60b5c76",
+        "modelName": "Carro",
+        "data": {
+            "marca": "Marca 1",
+            "ano": 2011,
+            "categoria": "Cat 1",
+            "anoModelo": 2011,
+            "modelo": "Modelo 1",
+            "placa": "ABC-0001"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "93d18626-0ed9-435b-88d6-a861fa163e5f",
+        "modelName": "Carro",
+        "data": {
+            "marca": "Marca 2",
+            "ano": 2012,
+            "categoria": "Cat 2",
+            "anoModelo": 2012,
+            "modelo": "Modelo 2",
+            "placa": "ABC-0002"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "e40450b7-4f8a-4bf1-a41f-c1f849d7304e",
+        "modelName": "Carro",
+        "data": {
+            "marca": "Marca 3",
+            "ano": 2013,
+            "categoria": "Cat 3",
+            "anoModelo": 2013,
+            "modelo": "Modelo 3",
+            "placa": "ABC-0003"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "b763dea2-f017-48eb-a2d7-80d8f0f48f66",
+        "modelName": "Carro",
+        "data": {
+            "marca": "Marca 4",
+            "ano": 2014,
+            "categoria": "Cat 4",
+            "anoModelo": 2014,
+            "modelo": "Modelo 4",
+            "placa": "ABC-0004"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "90d4dc2d-243e-4f55-982e-551a736f8b69",
+        "modelName": "Carro",
+        "data": {
+            "marca": "Marca 5",
+            "ano": 2015,
+            "categoria": "Cat 5",
+            "anoModelo": 2015,
+            "modelo": "Modelo 5",
+            "placa": "ABC-0005"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "2f77e861-ed98-4e7d-b00e-08f8b0596928",
+        "modelName": "Carro",
+        "data": {
+            "marca": "Marca 6",
+            "ano": 2016,
+            "categoria": "Cat 6",
+            "anoModelo": 2016,
+            "modelo": "Modelo 6",
+            "placa": "ABC-0006"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "1e5cbb5c-3018-44fd-90ca-1d0849da9cba",
+        "modelName": "Carro",
+        "data": {
+            "marca": "Marca 7",
+            "ano": 2017,
+            "categoria": "Cat 7",
+            "anoModelo": 2017,
+            "modelo": "Modelo 7",
+            "placa": "ABC-0007"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "664f4713-1e69-414c-8d31-53c8db2e27c5",
+        "modelName": "Carro",
+        "data": {
+            "marca": "Marca 8",
+            "ano": 2018,
+            "categoria": "Cat 8",
+            "anoModelo": 2018,
+            "modelo": "Modelo 8",
+            "placa": "ABC-0008"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "e07ad297-1045-4aec-a9ea-59286618f792",
+        "modelName": "Carro",
+        "data": {
+            "marca": "Marca 9",
+            "ano": 2019,
+            "categoria": "Cat 9",
+            "anoModelo": 2019,
+            "modelo": "Modelo 9",
+            "placa": "ABC-0009"
+        }
+    }
+]

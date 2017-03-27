@@ -1,0 +1,122 @@
+<div class="row">
+	<div class="page-header">
+		<h2>Gestão de Modelos</h2>
+	</div>
+</div>
+
+	
+<div class="row">
+	<h3>Adicionar Modelo</h3>
+</div>
+<div class="row">
+	<div class="col-md-6 col-sm-6 col-xs-12">
+		<form method="post" name="formModelDefinition" novalidate>
+			<div class="form-group ">
+				<label class="control-label requiredField" 
+				for="desc">
+					Nome 
+					<span class="asteriskField"> * </span>
+				</label> 
+				<input class="form-control" name="modelName" 
+				ng-model="modelName" type="text" required/>
+				<p ng-show="formModelDefinition.modelName.$invalid && 
+				!formModelDefinition.modelName.$pristine" class="help-block">
+				Este campo é obrigatorio.</p>
+				
+			</div>
+			<hr/>
+			<div class="form-group ">
+				<div class="control-label">
+					<h4>Colunas</h4>
+				</div>
+				<br/>
+				<label class="control-label requiredField" for="columns">
+					Nome <span class="asteriskField"> * </span>
+				</label> 
+				<input class="form-control" name="columns" ng-model="col.name" type="text"/>
+				<p ng-show="formModelDefinition.columns.$invalid && !formModelDefinition.columns.$pristine" class="help-block"> Este campo é obrigatorio.</p>
+				<label class="control-label requiredField" for="columns">
+					Tipo <span class="asteriskField"> * </span>
+				</label> 
+				<select class="select form-control" ng-model="col.type" id="colType" name="colType">
+					<option selected>string</option>
+					<option >int</option>
+					<option >double</option>
+				</select> <br/>
+				<button class="btn pull-right btn-success" 
+					ng-click="addColumnToForm(col)">
+					Adicionar Coluna
+				</button>
+				<table id="lista-de-colunas" class="table table-striped">
+					<thead>
+						<tr>
+							<th>Nome</th>
+							<th>Tipo</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="(key, value) in cols">
+							<td>{{ key }}</td>
+							<td>{{ value }}</td>
+							<td>
+								<button class="btn btn-link" 
+									ng-click="deleteColumnForm(key)">
+									<span class="glyphicon glyphicon-remove"></span>
+								</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>	
+			</div>
+			<hr/>
+
+			<div class="form-group">
+				<div>
+					<button class="btn btn-primary" 
+					ng-disabled="formModelDefinition.$invalid"
+					ng-click="addModelDefinition(formModelDefinition.$valid)">
+					Adicionar</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+<div class="alert alert-danger" 
+	ng-show="controller.error">{{controller.errorMessage}}
+</div>
+
+<div class="row">
+	<table id="lista-de-modelos" class="table table-striped">
+		<thead>
+			<tr>
+				<th>Nome</th>
+				<th>Colunas</th>
+				<th>Ações</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="item in itens">
+				<td>{{ item.modelName }}</td>
+				<td>
+					<ul>
+						<li ng-repeat="(name, type) in item.columns">
+							<span>{{name}} : {{type}}</span>
+						</li>
+					</ul>
+				</td>
+				<td>
+					<form method="post">
+						<button class="btn btn-link" 
+							ng-click="deleteModel(item, $index)">
+					 		<span class="glyphicon glyphicon-remove"></span>
+						</button>
+					</form>
+				</td>
+			</tr>
+		</tbody>
+	</table>	
+</div>
+
+

@@ -1,0 +1,1 @@
+{"modelName":"Produto1","columns":{"preco":"decimal","marca":"text","categoria":"string","nome":"string","quantidade":"string"}}

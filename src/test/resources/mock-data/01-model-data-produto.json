@@ -1,0 +1,122 @@
+[
+    {
+		"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "fa16cdb9-b61c-4778-9979-62853a06feb3",
+        "modelName": "Produto",
+        "data": {
+            "preco": 10.99,
+            "marca": "Marca 0",
+            "categoria": "Cat 0",
+            "nome": "Produto 0",
+            "quantidate": "100 ml"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "2a88bec3-1923-4ef7-97f1-2b8da0632f1a",
+        "modelName": "Produto",
+        "data": {
+            "preco": 11.99,
+            "marca": "Marca 1",
+            "categoria": "Cat 1",
+            "nome": "Produto 1",
+            "quantidate": "101 ml"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "13f16edf-a279-4159-b413-fb7c6cc46166",
+        "modelName": "Produto",
+        "data": {
+            "preco": 12.99,
+            "marca": "Marca 2",
+            "categoria": "Cat 2",
+            "nome": "Produto 2",
+            "quantidate": "102 ml"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "d51ff397-4924-4955-9f85-24e06d2fc371",
+        "modelName": "Produto",
+        "data": {
+            "preco": 13.99,
+            "marca": "Marca 3",
+            "categoria": "Cat 3",
+            "nome": "Produto 3",
+            "quantidate": "103 ml"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "4227a89b-22ee-4959-b88f-dd8fb4f3a874",
+        "modelName": "Produto",
+        "data": {
+            "preco": 14.99,
+            "marca": "Marca 4",
+            "categoria": "Cat 4",
+            "nome": "Produto 4",
+            "quantidate": "104 ml"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "36aa41a2-e678-4f17-acca-63a1e5b52564",
+        "modelName": "Produto",
+        "data": {
+            "preco": 15.99,
+            "marca": "Marca 5",
+            "categoria": "Cat 5",
+            "nome": "Produto 5",
+            "quantidate": "105 ml"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "69bfb351-c4ac-44db-8799-a1506f771941",
+        "modelName": "Produto",
+        "data": {
+            "preco": 16.99,
+            "marca": "Marca 6",
+            "categoria": "Cat 6",
+            "nome": "Produto 6",
+            "quantidate": "106 ml"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "2d25eddd-4aca-4e96-8eaa-a3cce9e06e25",
+        "modelName": "Produto",
+        "data": {
+            "preco": 17.99,
+            "marca": "Marca 7",
+            "categoria": "Cat 7",
+            "nome": "Produto 7",
+            "quantidate": "107 ml"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "2bf7cb99-224d-4296-91eb-a8d05e2d3e9e",
+        "modelName": "Produto",
+        "data": {
+            "preco": 18.99,
+            "marca": "Marca 8",
+            "categoria": "Cat 8",
+            "nome": "Produto 8",
+            "quantidate": "108 ml"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelData",
+        "id": "f5ff4cb5-bd1d-4e82-a26f-11e40708bd36",
+        "modelName": "Produto",
+        "data": {
+            "preco": 19.99,
+            "marca": "Marca 9",
+            "categoria": "Cat 9",
+            "nome": "Produto 9",
+            "quantidate": "109 ml"
+        }
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelDefinition",
+        "modelName": "Produto",
+        "columns": {
+            "preco": "decimal",
+            "marca": "text",
+            "categoria": "string",
+            "nome": "string",
+            "quantidate": "string"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelDefinition",
+        "modelName": "Carro",
+        "columns": {
+            "marca": "string",
+            "ano": "decimal",
+            "categoria": "string",
+            "anoModelo": "decimal",
+            "modelo": "string",
+            "placa": "string"
+        }
+    },
+    {
+    	"_class": "com.xy.backend.maker.domain.ModelDefinition",
+        "modelName": "Moto",
+        "columns": {
+            "marca": "string",
+            "ano": "decimal",
+            "categoria": "string",
+            "anoModelo": "decimal",
+            "modelo": "string",
+            "placa": "string"
+        }
+    }
+]
